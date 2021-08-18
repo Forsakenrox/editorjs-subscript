@@ -1,10 +1,9 @@
 ![](https://badgen.net/badge/Editor.js/v2.0/blue)
 
-# Marker Tool
+# Subscript Tool
 
-Marker Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
+Subscript Tool for highlighting text-fragments for the [Editor.js](https://editorjs.io).
 
-![](assets/example.gif)
 
 ## Installation
 
@@ -19,7 +18,7 @@ npm i --save-dev @editorjs/marker
 Include module at your application
 
 ```javascript
-const Marker = require('@editorjs/marker');
+const Subscript = require('@editorjs/marker');
 ```
 
 ### Download to your project's source dir
@@ -49,8 +48,8 @@ var editor = EditorJS({
   
   tools: {
     ...
-    Marker: {
-      class: Marker,
+    subscript: {
+      class: Subscript,
       shortcut: 'CMD+SHIFT+M',
     }
   },
