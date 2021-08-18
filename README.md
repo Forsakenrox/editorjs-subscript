@@ -10,6 +10,10 @@ Subscript Tool for highlighting text-fragments for the [Editor.js](https://edito
 ### Install via NPM
 
 Get the package
+```shell
+npm i
+npx webpack
+```
 
 ```shell
 npm i --save-dev @editorjs/marker
